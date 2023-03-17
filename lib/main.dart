@@ -60,7 +60,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  final _numberOfPostsPerRequest = 10;
+  final _numberOfPostsPerRequest = 20;
 
   final PagingController<int, Post> pagingController =
   PagingController(firstPageKey: 0);
