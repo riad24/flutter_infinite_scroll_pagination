@@ -103,7 +103,6 @@ class _MyHomePageState extends State<MyHomePage> {
         pagingController.appendPage(postList, nextPageKey);
       }
     } catch (e) {
-      print("error --> $e");
       pagingController.error = e;
     }
   }
@@ -164,7 +163,7 @@ class PostItem extends StatelessWidget {
             const SizedBox(height: 10,),
             Text(body,
               style: const TextStyle(
-                  fontSize: 12
+                  fontSize: 14
               ),)
           ],
         ),
